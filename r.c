@@ -15,8 +15,8 @@ float RESONANCE_DECAY = 0.98f;
 float DAMPING = 0.5f;
 
 // --- AGC (Automatic Gain Control) Controls ---
-float TARGET_RMS = 0.15f;     // Desired average volume (0.0 to 1.0)
-float AGC_SPEED = 0.005f;     // How fast the volume adjusts per chunk
+float TARGET_RMS = 0.5f;     // Desired average volume (0.0 to 1.0)
+float AGC_SPEED = 0.0005f;     // How fast the volume adjusts per chunk
 float current_gain = 0.5f;    // Starting gain multiplier
 float MAX_GAIN = 4.0f;        // Don't boost silence too much
 
